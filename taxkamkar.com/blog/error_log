@@ -1,0 +1,2 @@
+[04-Nov-2020 04:56:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/digit9ls/public_html/taxkamkar.com/blog/wp-content/themes/twentyseventeen/header.php:15) in /home/digit9ls/public_html/taxkamkar.com/blog/index.php on line 19
+[04-Nov-2020 04:58:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/digit9ls/public_html/taxkamkar.com/blog/wp-content/themes/twentyseventeen/header.php:15) in /home/digit9ls/public_html/taxkamkar.com/blog/index.php on line 19

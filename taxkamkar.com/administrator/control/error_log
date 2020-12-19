@@ -1,0 +1,9 @@
+[03-Nov-2020 13:17:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home/digit9ls/public_html/taxkamkar.com/administrator/control/PHPMailer/src/PHPMailer.php:2076
+Stack trace:
+#0 /home/digit9ls/public_html/taxkamkar.com/administrator/control/PHPMailer/src/PHPMailer.php(1887): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/digit9ls/public_html/taxkamkar.com/administrator/control/PHPMailer/src/PHPMailer.php(1609): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 3 No...', 'This is a multi...')
+#2 /home/digit9ls/public_html/taxkamkar.com/administrator/control/PHPMailer/src/PHPMailer.php(1442): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/digit9ls/public_html/taxkamkar.com/administrator/control/controller.php(84): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/digit9ls/public_html/taxkamkar.com/administrator/control/controller.php(193): sendmail('divesh@yopmail....', 'Divesh Jangid', 'You're Welcome!...', '<p>Hello Divesh...', 'please find the...')
+#5 {main}
+  thrown in /home/digit9ls/public_html/taxkamkar.com/administrator/control/PHPMailer/src/PHPMailer.php on line 2076
